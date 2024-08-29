@@ -1,0 +1,41 @@
+body, ul, li, h3, p{
+	margin:0px;
+	padding:0;
+}
+
+a	{
+	text-decoration:none;
+	color: gray;
+}
+
+li {
+	list-style-type:none;
+}
+
+img {
+	vertical-align:bottom;
+}
+
+/* reset.css */
+
+/*
+	1. header 로고영역을 만들어주세요.
+	배경색 c9e5ff
+	로고 너비값 280px / 높이값 50px
+*/
+
+
+
+
+.header {
+	height: 200px;
+	background-color: #c9e5ff;
+}
+
+
+.header .logo {
+	background-image: url('images/logo.png');
+	width: 350px;
+	height: 100px;
+	background-repeat: no-repeat;
+}
